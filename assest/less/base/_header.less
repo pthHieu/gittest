@@ -1,0 +1,64 @@
+
+.header {
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #000;
+    .logo-mobi {
+        text-align: center;
+        display: none
+    }
+    &-inner {
+        .flex();
+        .logo {
+
+        }
+        nav {
+            .nav-icon {
+                display: none;
+                font-size: 16px;
+                text-transform: uppercase;
+                i {
+                    font-size: 20px;
+                    vertical-align: bottom;
+                    padding: 0 15px;
+                }
+            }
+            .navbar {
+                li {
+                    display: inline-block;
+                    margin-left: 24px;
+                    margin-right: 24px;
+                    position: relative;
+                    right: 34px;
+                    top: 2px;
+                    a {
+                        // text-transform: uppercase;// viết chữ in hoa
+                        color: #fff;
+                    }
+                    &:last-child {
+                        margin-right: 0 //dùng để mất margin right
+                    }
+                }
+            }
+        }
+    }
+    .form-control {
+        .flex();
+        .control-item {
+            margin-right: 27px;
+            &:last-child {
+                margin-right: 0;
+            }
+            &.search {
+                border-right: 1px solid @ft-color;
+                padding-right: 26px;
+            }
+            &.shopping {
+                border-right: 1px solid @ft-color;
+                padding-right: 26px;
+            }
+        }
+    }
+}

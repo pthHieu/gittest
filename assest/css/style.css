@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(../font/Poppins/Poppins-Regular.ttf);
+  font-weight: 400;
+  font-style: none;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(../font/Poppins/Poppins-Medium.ttf);
+  font-weight: 500;
+  font-style: none;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(../font/Poppins/Poppins-Bold.ttf);
+  font-weight: 700;
+  font-style: none;
+}
+.header {
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #000;
+}
+.header .logo-mobi {
+  text-align: center;
+  display: none;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-inner nav .nav-icon {
+  display: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.header-inner nav .nav-icon i {
+  font-size: 20px;
+  vertical-align: bottom;
+  padding: 0 15px;
+}
+.header-inner nav .navbar li {
+  display: inline-block;
+  margin-left: 24px;
+  margin-right: 24px;
+  position: relative;
+  right: 34px;
+  top: 2px;
+}
+.header-inner nav .navbar li a {
+  color: #fff;
+}
+.header-inner nav .navbar li:last-child {
+  margin-right: 0;
+}
+.header .form-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .form-control .control-item {
+  margin-right: 27px;
+}
+.header .form-control .control-item:last-child {
+  margin-right: 0;
+}
+.header .form-control .control-item.search {
+  border-right: 1px solid #777777;
+  padding-right: 26px;
+}
+.header .form-control .control-item.shopping {
+  border-right: 1px solid #777777;
+  padding-right: 26px;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #000;
+  text-decoration: #000;
+}
+a:hover {
+  color: #000;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.container-fluid {
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: normal;
+}
+.background {
+  font-weight: 400;
+  position: relative;
+}
+.background .image {
+  max-width: 1920px;
+  height: 950px;
+}
+.background-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+}
+.background-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  bottom: 185px;
+}
+.background-sub {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  bottom: 195px;
+}
+.background-text {
+  max-width: 530px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  word-break: break-word;
+  position: relative;
+  bottom: 170px;
+}
+.background a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  padding: 19px 47px;
+  text-decoration: none;
+  position: absolute;
+  top: 95px;
+}
+.category {
+  position: relative;
+  bottom: 76px;
+  left: 14px;
+}
+.category-item {
+  background-color: #ffffff;
+  width: 32.5%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.category .item-icon {
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.category .item-content {
+  text-align: center;
+}
+.category .title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  top: 54px;
+}
+.category .detail {
+  width: 290px;
+  margin: 0 36px;
+  font-size: 14px;
+  color: #777777;
+  font-weight: 400;
+  position: relative;
+  top: 74px;
+}
+@media all and (max-width: 1024px) {
+  .header .logo-mobi {
+    display: block;
+  }
+  .header-inner .logo {
+    display: none;
+  }
+  .header-inner nav .nav-icon {
+    display: block;
+  }
+  .header-inner nav .navbar {
+    display: none;
+  }
+  .background .image {
+    max-width: 1024px;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
