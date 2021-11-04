@@ -1,18 +1,20 @@
-
 .header {
     padding: 20px 0;
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: @nav-color;
     background-color: #000;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: .5;
     .logo-mobi {
+        display: none;
         text-align: center;
-        display: none
     }
     &-inner {
         .flex();
         .logo {
-
         }
         nav {
             .nav-icon {
@@ -38,11 +40,11 @@
                         color: #fff;
                     }
                     &:last-child {
-                        margin-right: 0 //dùng để mất margin right
-                    }
+                        margin-right: 0 // last-child: css cho phần tử con cuối cùng của cha
                 }
             }
         }
+
     }
     .form-control {
         .flex();
@@ -62,3 +64,4 @@
         }
     }
 }
+}  

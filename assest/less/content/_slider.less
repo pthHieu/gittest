@@ -1,0 +1,95 @@
+.slider {
+    .slick-dots {
+        bottom: -42px;
+        li {
+            margin: 0;
+            padding: 0;
+            button {
+                &::before {
+                    font-size: 11px;
+                    color: @ft-color;
+                    opacity: .65;
+                }
+            }
+        }
+        .slick-active {
+            button {
+                &::before {
+                    color: @pd-color;
+                }
+            }
+        }
+    }
+    &-item {
+        &-title1 {
+            padding-top: 55px;
+            padding-bottom: 10px;
+            font-size: 36px;
+            font-weight: 700;
+            text-align: center;
+        }
+        &-img {
+            margin-left: 48%;
+            margin-right: 50%;
+        }
+        &-text {
+            max-width: 788px;
+            font-size: 18px;
+            font-weight: 400;
+            color: @ft-color;
+            text-align: center;
+            word-break: break-word; // css text xuống dòng
+        }
+        &-title2 {
+            margin-top: 30px;
+            font-size: 19px;
+            align-tracks: 0,1em;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        &-text2 {
+            margin-top: -14px;
+            font-size: 14px;
+            font-weight: 400;
+            color: @ft-color;
+            text-align: center;
+        }
+    }
+}
+.brand {
+    margin-top: 134px;
+    &-img {
+        margin-top: 74px;
+        padding-top: 43px;
+        border-top: 1px solid @ft-color;
+    }
+    
+    img {
+        margin-left: 30px;
+        margin-right: 38px;
+        height: 68px;
+        width: 125px;
+        &:last-child {
+            margin-right: 20px;
+        }
+        &:first-child {
+            margin-left: 20px;
+        }
+    }
+    .img4 {
+        height: 43px;
+        width: 125px;
+        margin-bottom: 12px;
+    }
+    .img5 {
+        height: 43px;
+        width: 128px;
+        margin-bottom: 12px;
+    }
+    .img6 {
+        height: 57px;
+        width: 130px;
+        margin-bottom: 6px;
+    }
+}
